@@ -20,10 +20,10 @@ import (
 	"bytes"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
+	"github.com/LampardNguyen234/go-ethereum/common"
+	"github.com/LampardNguyen234/go-ethereum/ethdb"
+	"github.com/LampardNguyen234/go-ethereum/log"
+	"github.com/LampardNguyen234/go-ethereum/metrics"
 )
 
 // wipeKeyRange deletes a range of keys from the database starting with prefix

@@ -24,17 +24,17 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/eth/downloader"
-	"github.com/ethereum/go-ethereum/eth/ethconfig"
-	"github.com/ethereum/go-ethereum/ethclient"
-	"github.com/ethereum/go-ethereum/ethstats"
-	"github.com/ethereum/go-ethereum/internal/debug"
-	"github.com/ethereum/go-ethereum/les"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/nat"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/LampardNguyen234/go-ethereum/core"
+	"github.com/LampardNguyen234/go-ethereum/eth/downloader"
+	"github.com/LampardNguyen234/go-ethereum/eth/ethconfig"
+	"github.com/LampardNguyen234/go-ethereum/ethclient"
+	"github.com/LampardNguyen234/go-ethereum/ethstats"
+	"github.com/LampardNguyen234/go-ethereum/internal/debug"
+	"github.com/LampardNguyen234/go-ethereum/les"
+	"github.com/LampardNguyen234/go-ethereum/node"
+	"github.com/LampardNguyen234/go-ethereum/p2p"
+	"github.com/LampardNguyen234/go-ethereum/p2p/nat"
+	"github.com/LampardNguyen234/go-ethereum/params"
 )
 
 // NodeConfig represents the collection of configuration values to fine tune the Geth

@@ -25,17 +25,17 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state/snapshot"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/eth/protocols/eth"
-	"github.com/ethereum/go-ethereum/eth/protocols/snap"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/LampardNguyen234/go-ethereum"
+	"github.com/LampardNguyen234/go-ethereum/common"
+	"github.com/LampardNguyen234/go-ethereum/core/rawdb"
+	"github.com/LampardNguyen234/go-ethereum/core/state/snapshot"
+	"github.com/LampardNguyen234/go-ethereum/core/types"
+	"github.com/LampardNguyen234/go-ethereum/eth/protocols/eth"
+	"github.com/LampardNguyen234/go-ethereum/eth/protocols/snap"
+	"github.com/LampardNguyen234/go-ethereum/ethdb"
+	"github.com/LampardNguyen234/go-ethereum/event"
+	"github.com/LampardNguyen234/go-ethereum/log"
+	"github.com/LampardNguyen234/go-ethereum/params"
 )
 
 var (
